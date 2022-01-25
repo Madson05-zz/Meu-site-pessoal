@@ -1,7 +1,39 @@
 body{
-    background-color: rgba(65, 65, 182, 0.446);
+    background-color: rgba(197, 197, 220, 0.679);
+    font-family: verdana;
+    margin-left: 2%;
+    margin-right: 2%;
     
 }
-.img{
-    border-radius: 1px;
+.foto{
+    width: 11%;
+    height: 9%;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    margin:0;
+    margin-top: 30px;
+    
+}
+.titulo{
+    font-size: 25pt;
+    text-transform: uppercase;
+    
+}
+
+.rodape{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    color:black
+}
+
+
+#email{
+    list-style-image: url("/Imagens/logo-gmail.png");
+}
+#WhatsApp{
+    list-style-image: url("/Imagens/logo-whatsapp.png");
+    
 }
